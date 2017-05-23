@@ -82,13 +82,32 @@
                 <h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
               </div>
               <div class="txt-two">
-                <h3>Viaja con
-                  <!-- <b>Lab'<'ar</b> -->
-                  <img src="img/logoBlanco.png" alt="">
-                </h3>
+                <h3>Viaja con <img src="img/logoBlanco.png" alt=""></h3>
               </div>
               <div class="">
-                <button type="button" name="button">REGISTRATE</button>
+                <div class="register">
+                  <button type="button" name="button"><a href="#" data-toggle="modal" data-target="#myModal" data-whatever="@getbootstrap ">REGISTRATE</a></button>
+                  <!-- modal registro -->
+                  <div class="modal fade" id="myModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                          <form class="col-md-12" action="index.html" method="post">
+                            <div class="form-group col-md-12">
+                              <span><input type="text" class="form-control col-md-6" placeholder="Nombre"></span>
+                              <span><input type="text" class="form-control col-md-6" placeholder="Apellido"></span>
+                            </div>
+                            <div class="form-group">
+                              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                            </div>
+                          </form>
+                        </div>
+                          <button type="button" class="btn btn-default" data-dismiss="modal">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
                 <div class="col-12">
         					<div class="line"></div>
         					O mas bien
