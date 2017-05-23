@@ -200,3 +200,35 @@ iframe{
 .leyend{
   color: #fff;
 }
+
+
+/*modal*/
+/*modal inicio*/
+.modal-content{
+  background-color: #f7b617;
+}
+
+.modal-content .close{
+  /*padding: 15px;*/
+}
+
+.modal-body{
+  text-align: center;
+}
+
+.modal-body img{
+  border-radius: 50%;
+  margin-top: 5%;
+  width: 200px;
+}
+
+.modal-body form div{
+  margin-top: 2%;
+}
+
+.modal-body form button{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  background-color: #e0e0e0;
+  width: 95%;
+}

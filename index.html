@@ -27,7 +27,45 @@
               <ul class=" nav nav-pills">
                 <li role="presentation" class="eneable"><a href="#">Viaja</a></li>
                 <li role="presentation" class="eneable"><a href="#drive">Conduce</a></li>
-                <li role="presentation" class="eneable"><a href="#">Iniciar sesión</a></li>
+                <li role="presentation" class="eneable">
+                  <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">
+                    Iniciar sesión
+                    <!-- modal inicio de sesion -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-body">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <img src="img/sesion/personaB.jpg" alt="perfil">
+                            <form>
+                              <div class="form-group has-feedback">
+                                <div class="col-sm-12">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status" placeholder="Username">
+                                  </div>
+                                  <span id="inputGroupSuccess2Status" class="sr-only"></span>
+                                </div>
+                              </div>
+                              <div class="form-group has-feedback">
+                                <div class="col-sm-12">
+                                  <div class="input-group">
+                                    <span class="input-group-addon"><i class="fa fa-unlock-alt" aria-hidden="true"></i></span>
+                                    <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status" placeholder="Password">
+                                  </div>
+                                  <span id="inputGroupSuccess2Status" class="sr-only"></span>
+                                </div>
+                              </div>
+                              <button type="button" class="btn btn-default" data-dismiss="modal">LOGIN</button>
+                            </form>
+                            <p> Forgot Password? <a href="#">Click here</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </a>
+                </li>
+
               </ul>
             </nav>
           </div>
@@ -187,5 +225,21 @@
         </div>
       </div>
     </footer>
+
+    <!-- Modales -->
+    <!-- modal inicio de sesion -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+    <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+      <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+          <img src="img/taxi.jpg" alt="" style="width:100px;">
+        </div>
+      </div>
+    </div> -->
+
+    <!-- Scripts
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
