@@ -1,0 +1,82 @@
+.header{
+  padding: 2% 10%;
+  background-color: #fff;
+  position: fixed;
+  z-index: 999999;
+}
+
+nav ul li {
+  margin-right: 10%;
+}
+
+.nav-pills li{
+  list-style: none;
+  font-size: 17px;
+  color: #e0e0e0;
+}
+
+.nav-pills li a{
+  color: #000;
+}
+
+/*home*/
+#home{
+  background-image: url("../img/taxi.jpg");
+  background-size: cover;
+  height: 750px;
+}
+.log-in{
+  margin-top: 19%;
+  z-index: 999;
+}
+
+.bg-home{
+  background-color: #f7b617;
+  padding: 4% 10% 7% 10%;
+  margin-right: -23%;
+  color: #fff;
+}
+
+.txt-two img{
+  width: 95px;
+  margin-top: -4px;
+}
+
+.bg-home button{
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 2% 3%;
+  color: #000;
+  border-radius: 5%;
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.line{
+  margin-top: 6%;
+  width: 195px;
+  height: 1px;
+  background: #fff;
+  display: inline-block;
+  vertical-align:super;
+}
+
+/*download*/
+.cel{
+  background-color: #f7b617;
+  height: 585px;
+  color: #fff;
+}
+
+.border-cel{
+  margin-top: 60px;
+  border: 1px solid #fff;
+  padding: 30px;
+}
+
+.app h2{
+  font-weight: bold;
+}
+.app{
+  font-size: 25px;
+}
