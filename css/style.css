@@ -83,18 +83,18 @@
 }
 
 .bg-driving{
-  /*background-color: #000;
-  height: 500px;*/
-  /*opacity: 0.5;
+  background-color: #000;
+  height: 500px;
+  opacity: 0.5;
   position: relative;
-  width: 420px;*/
+  width: 420px;
 }
 
 .driving{
   color: #fff;
-  /*position: absolute;*/
+  position: absolute;
   padding: 30% 0% 30% 10%;
-  /*z-index: 1;*/
+  z-index: 1;
   font-size: 21px;
 }
 
@@ -238,5 +238,5 @@ iframe{
 
 /*modal registro*/
 #myModal{
-  
+
 }
