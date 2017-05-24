@@ -236,7 +236,11 @@ iframe{
   z-index: 0;
 }
 
-/*modal registro*/
-#myModal{
-
+/*modal conductor*/
+.botonsito{
+  margin: 3% 6%;
+  width: 88%;
+  padding: 1%;
+  background-color: #4c4c4c;
+  border: transparent;
 }
