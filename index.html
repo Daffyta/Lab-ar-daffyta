@@ -12,12 +12,13 @@
     ================================================== -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medias.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
   </head>
   <body>
     <!-- Header -->
     <header id="header">
-      <div class="container col-md-12 header">
+      <div class="container col-xs-12 col-md-12 header">
         <div class="row">
           <div class="col-md-8">
             <a href="#"><img src="img/logoForma.png" alt=""></a>
@@ -25,7 +26,7 @@
           <div class="col-md-4">
             <nav>
               <ul class=" nav nav-pills">
-                <li role="presentation" class="eneable"><a href="#">Viaja</a></li>
+                <li role="presentation" class="eneable"><a href="#rates">Viaja</a></li>
                 <li role="presentation" class="eneable"><a href="#drive">Conduce</a></li>
                 <li role="presentation" class="eneable">
                   <a href="#" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">
@@ -39,7 +40,7 @@
                             <img src="img/sesion/personaB.jpg" alt="perfil">
                             <form>
                               <div class="form-group has-feedback">
-                                <div class="col-sm-12">
+                                <div class="col-xs-12">
                                   <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
                                     <input type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status" placeholder="Username">
@@ -64,7 +65,7 @@
                       </div>
                     </div>
                     <!-- Este es otro modal de prueba -->
-                    <div class="modal fade" id="exampleModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
+                    <!-- <div class="modal fade" id="exampleModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -79,7 +80,7 @@
                             <button type="button" class="btn btn-default" data-dismiss="modal">Enviar</button>
                         </div>
                       </div>
-                    </div>
+                    </div> -->
                     <!-- fin modal prueba -->
                   </a>
                 </li>
@@ -93,7 +94,7 @@
     <section id="home">
       <div class="container home">
         <div class="row">
-          <div class="col-md-5 col-md-offset-7 log-in">
+          <div class="col-xs-12 col-md-5 col-md-offset-7 log-in">
             <div class="bg-home">
               <div class="txt-one">
                 <h2>Disfruta del viaje <br> Eres dueño de tu tiempo</h2>
@@ -103,7 +104,7 @@
               </div>
               <div class="">
                 <div class="register">
-                  <button type="button" name="button"><a href="#" data-toggle="modal" data-target="#myModal" data-whatever="@getbootstrap ">REGISTRATE</a></button>
+                  <button type="button" name="button" class="here"><a href="#" data-toggle="modal" data-target="#myModal" data-whatever="@getbootstrap ">REGISTRATE</a></button>
                   <!-- modal registro -->
                   <div class="modal fade" id="myModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
                     <div class="modal-dialog" role="document">
@@ -111,9 +112,9 @@
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                         <div class="modal-body">
                           <form class="col-md-12" action="index.html" method="post">
-                            <div class="form-group col-md-12">
-                              <span><input type="text" class="form-control col-md-6" placeholder="Nombre"></span>
-                              <span ><input type="text" class="form-control" placeholder="Apellido"></span>
+                            <div class="form">
+                              <span class="input-name"><input type="text" class="form-control col-md-6" placeholder="Nombre"></span>
+                              <span class="input-name"><input type="text" class="form-control" placeholder="Apellido"></span>
                             </div>
                             <div class="form-group">
                               <input type="email" class="form-control" placeholder="Email">
@@ -122,7 +123,7 @@
                               <input type="text" class="form-control" placeholder="Ciudad">
                               <input type="text" class="form-control" placeholder="(Opcional) Código de Invitación">
                               <select class="form-control">
-                                <option>¿Cómo te enteraste acerda de nuetro nuevo...?</option>
+                                <option>¿Cómo te enteraste acerca de nuestro nuevo...?</option>
                                 <option>tu_mama</option>
                                 <option>tu_mama</option>
                                 <option>tu_mama</option>
@@ -131,7 +132,7 @@
                             </div>
                           </form>
                         </div>
-                          <button type="button" class="btn btn-default" data-dismiss="modal">Enviar</button>
+                          <button type="button" class="btn btn-default mybtn" data-dismiss="modal">Enviar</button>
                       </div>
                     </div>
                   </div>
@@ -143,15 +144,15 @@
         					<div class="line"></div>
         				</div>
               </div>
-              <div class="">
-                <button type="button" name="button"><a href="#" data-toggle="modal" data-target="#driveModal" data-whatever="@getbootstrap">Conviertete en conductor</a></button>
+              <div class="driver">
+                <button type="button" name="button" class="here"><a href="#" data-toggle="modal" data-target="#driveModal" data-whatever="@getbootstrap">Conviertete en conductor</a></button>
                 <!-- modal conductor -->
                 <div class="modal fade" id="driveModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
                   <div class="modal-dialog" role="document">
                     <div class="modal-content">
                       <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                       <div class="modal-body">
-                        <form class="col-md-12" action="index.html" method="post">
+                        <form class="drive-with-us col-md-12" action="index.html" method="post">
                           <div class="form-group">
                             <label for="">¿Tienes un veículo de cuatro ruedas?</label>
                             <select class="form-control">
@@ -190,11 +191,12 @@
                         </form>
                       </div>
                       <div class="">
-                        <button type="button" class"botonsito" data-dismiss="modal">Enviar</button>
+                        <button type="button" class="botonsito mybtn" data-dismiss="modal">Enviar</button>
                       </div>
                     </div>
                   </div>
                 </div>
+                <!-- fin modal conductor -->
               </div>
             </div>
           </div>
@@ -206,7 +208,7 @@
       <div class="container col-md-12">
         <div class="row cel">
           <div class="col-md-10 border-cel">
-            <div class="cel-phone col-md-offset-1 col-md-5">
+            <div class="cel-phone col-md-offset-1 col-md-5 col-xs-6">
               <img src="img/iPhone6Plus.png" alt="cel-phone">
             </div>
             <div class="col-md-5 app">
@@ -228,7 +230,60 @@
               <div class="driving">
                 <h2>Conduce cuando quieras</h2>
                 <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-                <button type="button" name="button">Conviértete en conductor</button>
+                <!-- inicia modal -->
+                <div class="driver">
+                  <button type="button" name="button"><a href="#" data-toggle="modal" data-target="#driveModal" data-whatever="@getbootstrap">Conviertete en conductor</a></button>
+                  <div class="modal fade" id="driveModal" tabindex="-2" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="modal-body">
+                          <form class="col-md-12" action="index.html" method="post">
+                            <div class="form-group">
+                              <label for="">¿Tienes un veículo de cuatro ruedas?</label>
+                              <select class="form-control">
+                                <option>Si</option>
+                                <option>No</option>
+                              </select>
+                              <label for="">Marca</label>
+                              <select class="form-control">
+                                <option>Elige la marca del vehículo</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                              </select>
+                              <p>¿No vez tu vehículo en la lista? Envia un correo electrónico a <a href="#">sociossmv@labcar.com</a></p>
+                              <label for="">Modelo</label>
+                              <select class="form-control">
+                                <option>Elige el modelo del vehículo</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                              </select>
+                              <label for="">Año</label>
+                              <select class="form-control">
+                                <option>Elige año del vehículo</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                                <option>tu_mama</option>
+                              </select>
+                              <label for="">Número de la matrícula</label>
+                              <input type="text" class="form-control" placeholder="Número de la matrícula">
+                              <p>La información  de tu matrícula ayuda a los clientes a identificar tu vehículo.</p>
+                            </div>
+                          </form>
+                        </div>
+                        <div class="">
+                          <button type="button" class"botonsito" data-dismiss="modal">Enviar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- fin modal -->
               </div>
               <div class="bg-driving"></div>
             </div>
@@ -257,8 +312,8 @@
               <button type="button" name="button">¡TRAZAR RUTA!</button>
             </div>
           </div>
-          <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1927521.5360525718!2d-99.9034232206195!3d19.339231981259864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1495549892221" width="500" height="350" frameborder="0" allowfullscreen></iframe>
+          <div class="col-md-6 col-xs-12">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1927521.5360525718!2d-99.9034232206195!3d19.339231981259864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1495549892221" width="100%" height="350" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
       </div>

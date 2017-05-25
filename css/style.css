@@ -37,7 +37,7 @@
   margin-top: -4px;
 }
 
-.bg-home button{
+.bg-home button.here{
   background-color: #fff;
   border: 1px solid #fff;
   padding: 2% 3%;
@@ -54,6 +54,11 @@
   background: #fff;
   display: inline-block;
   vertical-align:super;
+}
+
+.register a{
+  color: #000;
+  text-decoration: none;
 }
 
 /*download*/
@@ -103,6 +108,11 @@
   border: #f7b617;
   padding: 3%;
   border-radius: 10px;
+}
+
+.driver a{
+  color: #000;
+  text-decoration: none;
 }
 /*rates*/
 .rates{
@@ -201,14 +211,25 @@ iframe{
 }
 
 
+
 /*modal*/
 /*modal inicio*/
 .modal-content{
   background-color: #f7b617;
+  padding: 5%;
 }
 
 .modal-content .close{
-  /*padding: 15px;*/
+  padding: 15px;
+}
+
+.modal-content .mybtn{
+  width: 90%;
+  margin-left: 5%;
+  background-color: #c1c1c1;
+  border: 1px solid #c1c1c1;
+  padding: 2%;
+  color: #000;
 }
 
 .modal-body{
@@ -236,11 +257,17 @@ iframe{
   z-index: 0;
 }
 
+/*modal register*/
+#myModal form .form input {
+  width: 50%;
+}
+
+
 /*modal conductor*/
-.botonsito{
-  margin: 3% 6%;
-  width: 88%;
-  padding: 1%;
-  background-color: #4c4c4c;
-  border: transparent;
+.modal-body .drive-with-us{
+  text-align: left;
+}
+
+.modal-body .drive-with-us label{
+  margin-top: 3%;
 }
